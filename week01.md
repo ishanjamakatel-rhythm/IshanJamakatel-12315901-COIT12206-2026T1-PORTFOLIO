@@ -4,7 +4,16 @@
 This week involved setting up a GNS3 project and configuring a node with a static IP address.
 
 ## Screenshots
-(To be added)
+## Screenshots
+
+### GNS3 Setup
+![GNS Setup](gns3_setup.png)
+
+### Network Configuration
+![IP Config](ip_config.png)
+
+### Verification
+![Verification](ip_verification.png)
 
 ## Configuration
 A node was configured in GNS3 by editing the network interface file.
