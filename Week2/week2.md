@@ -6,31 +6,31 @@ This week involved creating a star topology in GNS3 and configuring multiple hos
 ## Screenshots
 
 ### Topology Setup
-![Topology](topology.png)
+![Topology](topology.png.png)
 
 ### Host 1 Configuration
-![Host1 Config](host1_config.png)
+![Host1 Config](host1_config.png.png)
 
 ### Host 2 Configuration
-![Host2 Config](host2_config.png)
+![Host2 Config](host2_config.png.png)
 
 ### Host 3 Nano Configuration
-![Host3 Nano](host3_nano.png)
+![Host3 Nano](host3_nano.png.png)
 
 ### Host 3 Verification
-![Host3 Verification](host3_verification.png)
+![Host3 Verification](host3_verification.png.png)
 
 ### Host 4 Configuration
-![Host4 Config](host4_config.png)
+![Host4 Config](host4_config.png.png)
 
 ### Successful Ping
-![Ping Success](ping_success.png)
+![Ping Success](ping_success.png.png)
 
 ### Failed Ping
-![Ping Fail](ping_fail.png)
+![Ping Fail](ping_fail.png.png)
 
 ### Advanced Ping
-![Ping Advanced](ping_advanced.png)
+![Ping Advanced](ping_advanced.png.png)
 
 ## Configuration
 Four hosts were configured with static IP addresses using different methods:
