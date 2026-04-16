@@ -44,7 +44,7 @@ This interface connects to the second network (Host3 side), allowing communicati
 
 ## Connectivity Test
 
-![Ping](task1-ping.png)
+![Ping](task1-ping.png.png)
 
 Ping was used to test communication between hosts. The successful replies show that the network is working correctly.
 
