@@ -8,7 +8,7 @@ This week includes configuring static IP addresses (Task 1) and setting up OSPF 
 # Task 1 – Static IP Configuration
 
 ## Topology
-![Task1 Topology](task1-topology.png)
+![Task1 Topology](task1-topology.png.png)
 
 This shows the basic network setup with 3 hosts connected through a switch and a router.
 
@@ -16,15 +16,15 @@ This shows the basic network setup with 3 hosts connected through a switch and a
 
 ## Host Configurations
 
-![Host1](task1-host1.png)
+![Host1](task1-host1.png.png)
 
 Host1 is assigned a static IP address and default gateway so it can communicate outside its network.
 
-![Host2](task1-host2.png)
+![Host2](task1-host2.png.png)
 
 Host2 is configured similarly with a different IP address in the same subnet.
 
-![Host3](task1-host3.png)
+![Host3](task1-host3.png.png)
 
 Host3 is placed on a different network and uses the router as its gateway.
 
@@ -32,11 +32,11 @@ Host3 is placed on a different network and uses the router as its gateway.
 
 ## Router Configuration
 
-![Router eth0](task1-router-eth0.png)
+![Router eth0](task1-router-eth0.png.png)
 
 This interface connects to the first network (Host1 and Host2 side).
 
-![Router eth1](task1-router-eth1.png)
+![Router eth1](task1-router-eth1.png.png)
 
 This interface connects to the second network (Host3 side), allowing communication between networks.
 
@@ -58,7 +58,7 @@ All devices were able to communicate, confirming that the IP configuration and r
 # Task 2 – OSPF Routing
 
 ## Topology
-![Task2 Topology](task2-topology.png)
+![Task2 Topology](task2-topology.png.png)
 
 This topology shows multiple routers connected across different networks using OSPF.
 
@@ -66,7 +66,7 @@ This topology shows multiple routers connected across different networks using O
 
 ## FRR Configuration
 
-![FRR](task2-frr-config.png)
+![FRR](task2-frr-config.png.png)
 
 FRR services were enabled to allow routing protocols like OSPF to run on the routers.
 
@@ -74,7 +74,7 @@ FRR services were enabled to allow routing protocols like OSPF to run on the rou
 
 ## Routing Table
 
-![Routing Table](task2-routing-table.png)
+![Routing Table](task2-routing-table.png.png)
 
 This shows the routing table with networks learned through OSPF. It confirms that routers are sharing route information.
 
@@ -82,7 +82,7 @@ This shows the routing table with networks learned through OSPF. It confirms tha
 
 ## OSPF Routes
 
-![OSPF Routes](task2-ospf-routes.png)
+![OSPF Routes](task2-ospf-routes.png.png)
 
 This output shows routes learned specifically through OSPF, including next-hop information.
 
@@ -90,7 +90,7 @@ This output shows routes learned specifically through OSPF, including next-hop i
 
 ## Traceroute
 
-![Traceroute](task2-traceroute.png)
+![Traceroute](task2-traceroute.png.png)
 
 Traceroute shows the path taken between networks, proving that routing is working across multiple routers.
 
