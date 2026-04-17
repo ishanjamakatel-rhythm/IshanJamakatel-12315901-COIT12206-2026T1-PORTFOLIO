@@ -15,3 +15,6 @@ Each weekly entry includes:
 ## Weeks
 - Week 1 – Completed
 - Week 2 – Completed
+- Week 4 - Completed
+- Week 5 - Completed
+- Week 6 - Completed
